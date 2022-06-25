@@ -16,6 +16,8 @@ def install(package):
 
 install('split-folders')
 
+import splitfolders
+
 def create_dataset(oppath="/content/generated_dataset",
                    dataurl ='https://zenodo.org/record/4291940/files/data.zip',
                    samplesize=1000,
