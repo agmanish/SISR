@@ -82,7 +82,7 @@ def create_dataset(oppath="/content/generated_dataset",
 
   shutil.rmtree(os.path.join(datapath,"__MACOSX"))
   shutil.rmtree(os.path.join(datapath,dirname))
-  shutil.rmtree('/content/temp')
+  shutil.rmtree(os.path.join(datapath,"temp"))
 
 if __name__ == '__main__':
 
